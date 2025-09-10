@@ -1,24 +1,71 @@
-/* General body styling */
+/* ===========================
+   General Body Styling
+   =========================== */
 body {
-  background-color: rgb(6, 6, 6), 0)(255, 0, 0)(255, 255, 255);        /* Body background */
-  color: white;                 /* White text for contrast */
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 20px;
+  /* Linear gradient background from dark gray -> red -> white */
+  background: linear-gradient(to right, rgb(6, 6, 6), rgb(255, 0, 0), rgb(255, 255, 255));
+  color: white; /* Default text color */
+  font-family: Arial, Helvetica, sans-serif; /* Font for entire site */
+  margin: 0; /* Remove default browser margin */
+  padding: 20px; /* Add padding inside body */
 }
 
-/* Header styles */
+/* ===========================
+   Header Styling
+   =========================== */
 header {
-  text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #444;
+  text-align: center; /* Center all header content */
+  padding-bottom: 20px; /* Space below header */
+  border-bottom: 2px solid #444; /* Bottom border for separation */
 }
 
+/* Header main title */
 header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+  font-size: 2.5em; /* Large font size */
+  margin-bottom: 10px; /* Space below title */
 }
 
+/* Header paragraph text */
 header p {
-  font-size: 1.1em;
-  margin: 5
+  font-size: 1.1em; /* Slightly larger than default */
+  margin: 5px 0; /* Vertical spacing */
+}
+
+/* Links inside header */
+header a {
+  color: white; /* White links for visibility */
+  text-decoration: underline; /* Underline links */
+}
+
+/* ===========================
+   Section Styling
+   =========================== */
+section {
+  margin: 20px 0; /* Vertical spacing between sections */
+  background-color: black; /* Black background for sections */
+  padding: 20px; /* Inner spacing inside section */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Section titles */
+section h2 {
+  color: white; /* Make sure headings are visible on black background */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+/* Section paragraphs */
+section p {
+  line-height: 1.6; /* Improve readability */
+}
+
+/* ===========================
+   Links Styling (anywhere else)
+   =========================== */
+a {
+  color: #ffcc00; /* Gold color for general links */
+  text-decoration: none; /* Remove underline for general links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}
