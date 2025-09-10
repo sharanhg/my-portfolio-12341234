@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-  background-color: red;        /* Changed background to red */
+  background-color: red;        /* Body background */
   color: white;                 /* White text for contrast */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -21,18 +21,4 @@ header h1 {
 
 header p {
   font-size: 1.1em;
-  margin: 5px 0;
-}
-
-header a {
-  color: white;                 /* Make all links in header white */
-  text-decoration: underline;
-}
-
-/* Section styling */
-section {
-  margin: 20px 0;
-}
-
-section h2 {
-  bor
+  margin: 5
